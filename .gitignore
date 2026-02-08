@@ -1,0 +1,6 @@
+.venv/
+output/
+config.toml
+assets/
+user-data-*
+conversations-*

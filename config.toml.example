@@ -1,0 +1,44 @@
+# Perplexity Export Convert configuration
+
+[filename]
+# Maximum filename length (default: 254)
+# keep it only as long as you need it to be, otherwise you'll incur in OS errors.
+max_length = 128
+
+# Append date to filename (default: false)
+append_date = false
+
+# Date format for filename suffix (default: "%Y%m%dT%H%M%S")
+# Common formats:
+#   %Y%m%dT%H%M%S  -> 20260202T153045
+#   %Y-%m-%d       -> 2026-02-02
+#   %Y%m%d         -> 20260202
+date_format = "%Y%m%dT%H%M%S"
+
+# Assets settings
+[assets]
+# Asset directory name (default: "assets")
+location = "assets"
+
+# Asset location relative to markdown files (default: false)
+# false: assets at same level as collection directories (../assets/file.png)
+# true: assets inside each collection directory (assets/file.png)
+# THIS MIGHT NOT WORK, still testing out
+relative_to_markdown = false
+
+# Output settings
+[output]
+# Base output directory (default: "output")
+base_dir = "output"
+
+# Use wikilinks (Obsidian like) for asset references (default: false)
+# false: ![Asset](path/to/asset.png)
+# true: ![[path/to/asset.png]]
+wikilinks = false
+
+# Collection name mappings
+# Map collection UUIDs to human-readable names
+[collections]
+# Example:
+# "60c1bdfb-3ffe-44f7-8f97-b4f996714c6e" = "Research"
+# "67079d9a-415c-4b2a-82a2-07682b7a883d" = "Linux-Commands"

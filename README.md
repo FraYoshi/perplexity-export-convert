@@ -49,8 +49,6 @@ This will:
 
 ### Basic Usage
 
-Configure the 
-
 copy the `.json`, `.xlsx`, and `assets` directories into the cloned repository, from here run it with `uv run perplexity-export-convert.py <convertations>.json`
 
 ## Configuration

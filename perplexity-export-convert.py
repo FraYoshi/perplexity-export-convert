@@ -249,8 +249,8 @@ class PerplexityExporter:
         lines = [
             "---",
             f"Date: {date_str}",
-            f"Title: {clean_title}",
-            f"Export date: {self.export_date}",
+            f"title: {clean_title}",
+            f"export date: {self.export_date}",
             "---",
         ]
 
